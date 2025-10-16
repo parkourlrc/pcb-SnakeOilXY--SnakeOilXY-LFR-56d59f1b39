@@ -1,5 +1,5 @@
 999
-FreeCAD v0.19 24291 (Git)
+FreeCAD v0.21 33675 (Git)
   0
 SECTION
   2
@@ -32,6 +32,14 @@ STANDARD
 $CMLSTYLE
   2
 STANDARD
+  9
+$LUNITS
+ 70
+2
+  9
+$INSUNITS
+ 70
+4
   9
 $PEXTMAX
  10
@@ -273,7 +281,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Fillet_cs
+Body003002006_cs
  70
     0
  62
@@ -699,7 +707,283 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
+100
+AcDbCircle
+ 10
+-20
+ 20
+18
+ 30
+22.25
+ 40
+2
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+A09
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+-22
+ 20
+18
+ 30
+22.25
+ 11
+-22
+ 21
+-17.95
+ 31
+22.25
+  0
+ARC
+  5
+A0A
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbCircle
+ 10
+-20
+ 20
+-17.95
+ 30
+22.25
+ 40
+2
+100
+AcDbArc
+ 50
+180
+ 51
+-90
+  0
+LINE
+  5
+A0B
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+-4.5
+ 20
+-19.95
+ 30
+22.25
+ 11
+-20
+ 21
+-19.95
+ 31
+22.25
+  0
+ARC
+  5
+A0C
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbCircle
+ 10
+-4.5
+ 20
+-21.95
+ 30
+22.25
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+A0D
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+-2.5
+ 20
+-22.95
+ 30
+22.25
+ 11
+-2.5
+ 21
+-21.95
+ 31
+22.25
+  0
+ARC
+  5
+A0E
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbCircle
+ 10
+-0.5
+ 20
+-22.95
+ 30
+22.25
+ 40
+2
+100
+AcDbArc
+ 50
+180
+ 51
+-90
+  0
+LINE
+  5
+A0F
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+-0.5
+ 20
+-24.95
+ 30
+22.25
+ 11
+10.5
+ 21
+-24.95
+ 31
+22.25
+  0
+ARC
+  5
+A10
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbCircle
+ 10
+10.5
+ 20
+-22.95
+ 30
+22.25
+ 40
+2
+100
+AcDbArc
+ 50
+-90
+ 51
+0
+  0
+LINE
+  5
+A11
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+12.5
+ 20
+-9.3619
+ 30
+22.25
+ 11
+12.5
+ 21
+-22.95
+ 31
+22.25
+  0
+ARC
+  5
+A12
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbCircle
+ 10
+10.5
+ 20
+-9.3619
+ 30
+22.25
+ 40
+2
+100
+AcDbArc
+ 50
+0
+ 51
+49.9948
+  0
+ARC
+  5
+A13
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -707,7 +991,7 @@ AcDbCircle
  20
 -4
  30
-0.75
+22.25
  40
 5
 100
@@ -719,13 +1003,13 @@ AcDbArc
   0
 ARC
   5
-A09
+A14
 330
 A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -733,7 +1017,7 @@ AcDbCircle
  20
 2
  30
-0.75
+22.25
  40
 2
 100
@@ -745,13 +1029,13 @@ AcDbArc
   0
 LINE
   5
-A0A
+A15
 330
 A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbLine
  10
@@ -759,291 +1043,15 @@ AcDbLine
  20
 -1.3315e-14
  30
-0.75
+22.25
  11
 18.6056
  21
 -1.37189e-14
  31
-0.75
+22.25
   0
 ARC
-  5
-A0B
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
-59
- 20
-2
- 30
-0.75
- 40
-2
-100
-AcDbArc
- 50
--90
- 51
-0
-  0
-LINE
-  5
-A0C
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
-61
- 20
-21.5
- 30
-0.75
- 11
-61
- 21
-2
- 31
-0.75
-  0
-ARC
-  5
-A0D
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
-60
- 20
-21.5
- 30
-0.75
- 40
-1
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-A0E
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
-60
- 20
-22.5
- 30
-0.75
- 11
-56.55
- 21
-22.5
- 31
-0.75
-  0
-ARC
-  5
-A0F
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
-56.55
- 20
-21.5
- 30
-0.75
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-180
-  0
-LINE
-  5
-A10
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
-55.55
- 20
-19.75
- 30
-0.75
- 11
-55.55
- 21
-21.5
- 31
-0.75
-  0
-ARC
-  5
-A11
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
-54.55
- 20
-19.75
- 30
-0.75
- 40
-1
-100
-AcDbArc
- 50
--90
- 51
-0
-  0
-LINE
-  5
-A12
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
-36.45
- 20
-18.75
- 30
-0.75
- 11
-54.55
- 21
-18.75
- 31
-0.75
-  0
-ARC
-  5
-A13
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
-36.45
- 20
-19.75
- 30
-0.75
- 40
-1
-100
-AcDbArc
- 50
-180
- 51
--90
-  0
-LINE
-  5
-A14
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
-35.45
- 20
-21.5
- 30
-0.75
- 11
-35.45
- 21
-19.75
- 31
-0.75
-  0
-ARC
-  5
-A15
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
-34.45
- 20
-21.5
- 30
-0.75
- 40
-1
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
   5
 A16
 330
@@ -1051,23 +1059,25 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
-AcDbLine
+AcDbCircle
  10
-34.45
+59
  20
-22.5
+2
  30
-0.75
- 11
-31
- 21
-22.5
- 31
-0.75
+22.25
+ 40
+2
+100
+AcDbArc
+ 50
+-90
+ 51
+0
   0
-ARC
+LINE
   5
 A17
 330
@@ -1075,25 +1085,23 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
-AcDbCircle
+AcDbLine
  10
-31
+61
  20
 21.5
  30
-0.75
- 40
-1
-100
-AcDbArc
- 50
-90
- 51
-180
+22.25
+ 11
+61
+ 21
+2
+ 31
+22.25
   0
-LINE
+ARC
   5
 A18
 330
@@ -1101,23 +1109,25 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
-AcDbLine
+AcDbCircle
  10
-30
+60
  20
 21.5
  30
-0.75
- 11
-30
- 21
-21
- 31
-0.75
+22.25
+ 40
+1
+100
+AcDbArc
+ 50
+0
+ 51
+90
   0
-ARC
+LINE
   5
 A19
 330
@@ -1125,15 +1135,89 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
+100
+AcDbLine
+ 10
+60
+ 20
+22.5
+ 30
+22.25
+ 11
+56.55
+ 21
+22.5
+ 31
+22.25
+  0
+ARC
+  5
+A1A
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
 100
 AcDbCircle
  10
-29
+56.55
  20
-21
+21.5
  30
-0.75
+22.25
+ 40
+1
+100
+AcDbArc
+ 50
+90
+ 51
+180
+  0
+LINE
+  5
+A1B
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+55.55
+ 20
+19.75
+ 30
+22.25
+ 11
+55.55
+ 21
+21.5
+ 31
+22.25
+  0
+ARC
+  5
+A1C
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbCircle
+ 10
+54.55
+ 20
+19.75
+ 30
+22.25
  40
 1
 100
@@ -1145,105 +1229,29 @@ AcDbArc
   0
 LINE
   5
-A1A
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
--20
- 20
-20
- 30
-0.75
- 11
-29
- 21
-20
- 31
-0.75
-  0
-ARC
-  5
-A1B
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
--20
- 20
-18
- 30
-0.75
- 40
-2
-100
-AcDbArc
- 50
-90
- 51
-180
-  0
-LINE
-  5
-A1C
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
--22
- 20
-18
- 30
-0.75
- 11
--22
- 21
--17.95
- 31
-0.75
-  0
-ARC
-  5
 A1D
 330
 A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
-AcDbCircle
+AcDbLine
  10
--20
+36.45
  20
--17.95
+18.75
  30
-0.75
- 40
-2
-100
-AcDbArc
- 50
-180
- 51
--90
+22.25
+ 11
+54.55
+ 21
+18.75
+ 31
+22.25
   0
-LINE
+ARC
   5
 A1E
 330
@@ -1251,91 +1259,17 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
-100
-AcDbLine
- 10
--4.5
- 20
--19.95
- 30
-0.75
- 11
--20
- 21
--19.95
- 31
-0.75
-  0
-ARC
-  5
-A1F
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
--4.5
+36.45
  20
--21.95
+19.75
  30
-0.75
+22.25
  40
-2
-100
-AcDbArc
- 50
-0
- 51
-90
-  0
-LINE
-  5
-A20
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
--2.5
- 20
--22.95
- 30
-0.75
- 11
--2.5
- 21
--21.95
- 31
-0.75
-  0
-ARC
-  5
-A21
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbCircle
- 10
--0.5
- 20
--22.95
- 30
-0.75
- 40
-2
+1
 100
 AcDbArc
  50
@@ -1345,29 +1279,105 @@ AcDbArc
   0
 LINE
   5
+A1F
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+35.45
+ 20
+21.5
+ 30
+22.25
+ 11
+35.45
+ 21
+19.75
+ 31
+22.25
+  0
+ARC
+  5
+A20
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbCircle
+ 10
+34.45
+ 20
+21.5
+ 30
+22.25
+ 40
+1
+100
+AcDbArc
+ 50
+0
+ 51
+90
+  0
+LINE
+  5
+A21
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
+100
+AcDbLine
+ 10
+34.45
+ 20
+22.5
+ 30
+22.25
+ 11
+31
+ 21
+22.5
+ 31
+22.25
+  0
+ARC
+  5
 A22
 330
 A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
-AcDbLine
+AcDbCircle
  10
--0.5
+31
  20
--24.95
+21.5
  30
-0.75
- 11
-10.5
- 21
--24.95
- 31
-0.75
+22.25
+ 40
+1
+100
+AcDbArc
+ 50
+90
+ 51
+180
   0
-ARC
+LINE
   5
 A23
 330
@@ -1375,17 +1385,41 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
+100
+AcDbLine
+ 10
+30
+ 20
+21.5
+ 30
+22.25
+ 11
+30
+ 21
+21
+ 31
+22.25
+  0
+ARC
+  5
+A24
+330
+A02
+100
+AcDbEntity
+  8
+Body003002006_cs
 100
 AcDbCircle
  10
-10.5
+29
  20
--22.95
+21
  30
-0.75
+22.25
  40
-2
+1
 100
 AcDbArc
  50
@@ -1395,53 +1429,27 @@ AcDbArc
   0
 LINE
   5
-A24
-330
-A02
-100
-AcDbEntity
-  8
-Fillet_cs
-100
-AcDbLine
- 10
-12.5
- 20
--9.3619
- 30
-0.75
- 11
-12.5
- 21
--22.95
- 31
-0.75
-  0
-ARC
-  5
 A25
 330
 A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
-AcDbCircle
+AcDbLine
  10
-10.5
+-20
  20
--9.3619
+20
  30
-0.75
- 40
-2
-100
-AcDbArc
- 50
-0
- 51
-49.9948
+22.25
+ 11
+29
+ 21
+20
+ 31
+22.25
   0
 CIRCLE
   5
@@ -1451,7 +1459,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1469,7 +1477,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1487,7 +1495,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1505,7 +1513,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1523,7 +1531,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1541,7 +1549,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1559,7 +1567,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1567,7 +1575,7 @@ AcDbCircle
  20
 10
  40
-2.5
+1.5
   0
 CIRCLE
   5
@@ -1577,7 +1585,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
@@ -1595,7 +1603,7 @@ A02
 100
 AcDbEntity
   8
-Fillet_cs
+Body003002006_cs
 100
 AcDbCircle
  10
